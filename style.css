@@ -32,21 +32,25 @@ body{
 }
 
 .btn-level:hover{
-    background-color:#943a54 ;  
+    background-color:#943a54 ; 
+    width: 200px; 
+    padding: 20px;
 
 }
 button{
-    padding: 20px;
-    width: 200px;
+  padding: 20px;
+  width: 200px;
   background-color: #491725;
   color: aliceblue;
   font-size: 20px;
   margin-right: 50px;
- 
+  margin-left: 700px;
+  margin-top: 20px;
 
 }
 
 button:hover{
+    padding: 30px;
     background-color:#943a54; 
     width: 300px;
 }

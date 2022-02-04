@@ -15,15 +15,11 @@
     <div class="body-wrapper">
     <h1 class = "heading">Speed Typer</h1><span></span>
     </div>
-    <div class="levels">
-        <div class="choose-level"><button class = "btn-level" onclick="appendButtons(); removeStart()">START</button></div>
-        <!-- <div class="level-1"><button>Level 1</button></div>
-        <span><div class="level-2"><button>Level 2</button></div></span>
-        <span><div class="level-3"><button>Level 3</button></div></span> -->
-    </div>
-    <!-- <div class="main-body">
-        <p>hey</p>
-    </div> -->
-<script src="index.js"></script>
+
+       <button class = "btn-level" onclick= "appendButtons()">START</button>
+       <input type="text" name="input" onchange = "isCorrect()" id="word-input">
+       <p id="demo">H</p>
+<!-- <script src="index.js"></script> -->
+<script src="level.js"></script>
 </body>
 </html>

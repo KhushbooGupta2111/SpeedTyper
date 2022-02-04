@@ -11,11 +11,13 @@ function appendButtons(){
     
 }
 function removeStart(){
-    const startButton = document.querySelector("btn-level");
-    document.body.removeChild(startButton);
+    const startButton = document.body.querySelector("btn-level");
+    document.body.remove(startButton);
 }
 
+{/* <button class = "btn-level" onclick="appendButtons(); removeStart()">START</button> */}
 
-{/* <div class="level-1"><button>Level 1</button></div>
-<span><div class="level-2"><button>Level 2</button></div></span>
-<span><div class="level-3"><button>Level 3</button></div></span> */}
+function level(){
+    const level1Para  = document.createElement("p");
+    document.body.querySelector("demo").innerHTML = ""
+}
