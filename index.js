@@ -7,6 +7,11 @@ function appendButtons(){
     levelButton.innerHTML = "Level" + i;
     document.body.appendChild(levelButton);
     document.body.appendChild(document.createElement("p"));
+    if(i == 1){
+        levelButton.addEventListener("click", () => {
+            window.location = 'level1.html'
+        })
+    }
     }
     
 }

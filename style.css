@@ -3,16 +3,38 @@ body{
 }
 
 .heading{
- font-size: 80px;
+ font-size: 50px;
  color: azure;
  text-align: center;
- 
+ background-color: #943a54;
+ width: 50%;
+ margin-left: 200px;
+ border-radius: 30px;
+ border: 2px solid antiquewhite;
 }
+
+.heading-two{
+    font-size: 70px;
+    color: azure;
+    text-align: center;
+    background-color: #943a54;
+    width: 30%;
+    margin-left: 550px;
+    border-radius: 30px;
+    border: 2px solid antiquewhite;
+   }
 
 .main-body{
     background-color:#420516;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+#demo{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: aliceblue;
 }
 
 
@@ -53,4 +75,36 @@ button:hover{
     padding: 30px;
     background-color:#943a54; 
     width: 300px;
+}
+
+.body-wrapper{
+    background-color: #420516;
+    width: 50%;
+    margin-left: 400px;
+    margin-top: 100px;
+    height: 400px;
+    border-radius: 30px;
+    border: 2px solid antiquewhite;
+    -webkit-box-shadow: 0px 5px 40px -21px rgb(226, 226, 233);
+    -moz-box-shadow: 0px 5px 40px -21px rgb(226, 226, 233);
+    box-shadow: 0px 5px 40px -21px rgb(226, 226, 233);
+}
+
+#word-input{
+margin-left: 250px;
+height: 50px;
+width: 30%;
+font-size: 25px;
+text-align: center;
+-webkit-box-shadow: 0px 5px 40px -21px rgb(226, 226, 233);
+-moz-box-shadow: 0px 5px 40px -21px rgb(226, 226, 233);
+box-shadow: 0px 5px 40px -21px rgb(226, 226, 233);
+}
+
+#word{
+    font-size: 40px;
+    color:beige;
+    margin-left: 40%;
+
+
 }
